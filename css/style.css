@@ -1,26 +1,32 @@
 
-  .conteneur-general{width: 80vw;}
+  .conteneur-general{
+    width: 80vw;}
+.conteneur-second{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+margin: auto;
 
+}
   header{
-    
-   height: max-content;
+     height: max-content;
  background-image: url('../Ressources/hommeaccueil.jpg');
  background-position: center center;
 } 
  
-section{ width:100%;
-
-}
-
 .conteneur-grid {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   row-gap: 5px;
   -moz-column-gap: 5px;
        column-gap: 5px;
-  background-color: #DDD;
-  margin-block-end: 40px;
+ 
+  margin-block-end: 50px;
+  margin-block-start: 50px;
 }
 
 .conteneur-grid > div {
