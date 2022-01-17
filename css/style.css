@@ -17,3 +17,164 @@ h2{
     justify-content: center;
     border: 65px;
 }
+
+  .conteneur-general{
+    width: 80vw;}
+.conteneur-second{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+margin: auto;
+
+}
+  header{
+     height: max-content;
+ background-image: url('../Ressources/hommeaccueil.jpg');
+ background-position: center center;
+} 
+ 
+.conteneur-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 5px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+ 
+  margin-block-end: 50px;
+  margin-block-start: 50px;
+}
+
+.conteneur-grid > div {
+  padding: 20px 5px;
+  border: 1px;
+  max-width: 1200px;
+  min-height: 300px;
+}
+
+.article1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #ED8;
+  /*Jaune*/
+}
+
+.article2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #4DA;
+  /*Vert*/
+}
+
+.article3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: #4AD;
+  /*Bleu*/
+}
+
+.article4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #A4D;
+  /*Violet*/
+}
+
+.article5 {
+  background-color: #C24;
+  /*Rouge*/
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.article6 {
+  background-color: aqua;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.article7 {
+  background-color: cadetblue;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.article8 {
+  background-color: #a422cc;
+  /**/
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.article9 {
+  background-color: #cc9622;
+  /**/
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.article10 {
+  background-color: #676e74;
+  /*ici*/
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.article11 {
+  background-color: #5c420b;
+  /*Rouge*/
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.article12 {
+  background-color: #470f20;
+  /*Rouge*/
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.article13 {
+  background-color: #d1c9b7;
+  /*Rouge*/
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.article14 {
+  background-color: #cc9622;
+  /*Rouge*/
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.article15 {
+  background-color: #9cccb6;
+  /*Rouge*/
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.article16 {
+  background-color: #158536;
+  /*Rouge*/
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+.article17 {
+  background-color: #55134a;
+  /*Rouge*/
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+.article18 {
+  background-color: #6b5252;
+  /*Rouge*/
+  grid-column: 3/4;
+  grid-row: 6/7;
+}

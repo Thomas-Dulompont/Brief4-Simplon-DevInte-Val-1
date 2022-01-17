@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Maitree", serif;
+}
+
+body {
+  position: relative;
+}
+body nav {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 20%;
+  overflow: hidden;
+  position: fixed;
+  background-image: linear-gradient(to bottom, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+body nav .logo h1 {
+  font-size: 110px;
+  font-family: "Italianno", cursive;
+  height: 100px;
+}
+body nav .logo h2 {
+  font-size: 35px;
+  font-family: "Amiri", serif;
+  height: 30px;
+}
+body nav ul {
+  list-style: none;
+}
+body nav .navbar {
+  font-size: 50px;
+  width: 80%;
+}
+body nav .navbar a {
+  font-family: "Amiri", serif;
+  text-decoration: none;
+}
+body nav .carte {
+  width: 100%;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+body nav .carte iframe {
+  width: 80%;
+}
+body nav .social {
+  width: 70%;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+body .conteneur-general {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+}
+body .conteneur-general header {
+  background-image: url("../img/image.jpg");
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-position: center center;
+}

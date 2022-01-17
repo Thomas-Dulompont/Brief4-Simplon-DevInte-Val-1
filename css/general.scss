@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+
+$theme_color: #ffffff;
+$theme_typo_1th: 'Italianno', cursive;
+$theme_typo_2nd: 'Amiri', serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    color: $theme_color;
+    font-family: 'Maitree', serif;
+}
+
+body {
+    position: relative;
+    nav {
+        height: 100vh;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 20%;
+        overflow: hidden;
+        position: fixed;
+        background-image: linear-gradient(to bottom, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+        .logo {
+            h1 {
+                font-size: 110px;
+                font-family: $theme_typo_1th;
+                height: 100px;
+            }
+            h2 {
+                font-size: 35px;
+                font-family: $theme_typo_2nd;
+                height: 30px;
+            }
+        }
+        ul {
+            list-style: none;
+        }
+        .navbar {
+            font-size: 50px;
+            width: 80%;
+            a {
+                font-family: $theme_typo_2nd;
+                text-decoration: none;
+            }
+        }
+        .carte {
+            width: 100%;
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            iframe {
+                width: 80%;
+            }
+        }
+        .social {
+            width: 70%;
+            font-size: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .conteneur-general {
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
+        header {
+            background-image: url('../img/image.jpg');
+            height: max-content;
+            background-position: center center;
+        }
+    }
+}
