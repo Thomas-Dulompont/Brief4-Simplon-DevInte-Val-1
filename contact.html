@@ -20,7 +20,37 @@
 </head>
 
 <body>
+  <nav>
+  </nav>
 
+  <h1>Contact</h1>
+  <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nisi officiis iste quidem rem tempore beatae dolores ut consequatur minus, sequi itaque voluptatibus assumenda. Ullam cumque repellendus sit rem amet!</h2>
+
+  <form class="contact" action="/" method="POST">
+
+        <label for="name"><strong>Votre nom*:</strong></label>
+        <input id="name" name="name" required><br>
+
+
+        <label for="email"><strong>Votre email*:</strong></label>
+        <input id="email" name="email" required><br>
+
+
+        <label for="subject"><strong>Object de l email*</strong></label>
+        <select id="subject" name="subject" required multiple>
+            <option value="1">Contacter le service commercial</option>
+            <option value="2">Contacter le service technique</option>
+            <option value="3">Autre</option>
+        </select><br>
+
+
+        <label for="message">Votre message*:</label>
+        <textarea id="message" name="message" required></textarea><br>
+
+
+        <button type="submit">Envoyer</button>
+
+    </form>
 </body>
 
 </html>
