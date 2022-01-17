@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+h1{
+    font-family: 'Italianno', cursive;
+    text-align: center;
+    font-size: 55px;
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.contact{
+    justify-content: center;
+    border: 65px;
+}
