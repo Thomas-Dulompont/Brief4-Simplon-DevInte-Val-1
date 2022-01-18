@@ -1,0 +1,19 @@
+.grille {
+    article { 
+        width: 100%;
+        position: relative; 
+        img { 
+            width: 100%;
+            height: auto;
+            }
+            .prix{
+                background-color: white;
+                  position: absolute;
+                    right: 10px;
+                    top: 10px;
+            }
+            .matière{@include fond-position-article;
+            }
+            .name{@include fond-position-article;}
+    }
+}
