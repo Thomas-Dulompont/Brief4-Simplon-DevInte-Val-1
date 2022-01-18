@@ -500,6 +500,12 @@ nav .social a {
   font-size: 55px;
 }
 
+.a-propos {
+  width: 60%;
+  margin: 0 auto;
+  color: #303030;
+}
+
 .article {
   color: #303030;
   width: 90%;
@@ -544,10 +550,6 @@ nav .social a {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-}
-.article section img {
-  width: 100px;
-  height: auto;
 }
 .article section .prix, .article section .prix b, .article section .prix i {
   font-size: 25px;
