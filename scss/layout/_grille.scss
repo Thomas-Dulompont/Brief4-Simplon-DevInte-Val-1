@@ -1,0 +1,8 @@
+.grille {
+    width: 80%;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    gap: 30px;
+}

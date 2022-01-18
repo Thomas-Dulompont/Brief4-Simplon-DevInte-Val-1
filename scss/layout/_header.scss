@@ -1,9 +1,26 @@
 header {
+    
     @include default;
-    padding: 50px 0px;
-    text-align: center;
-    color: $text-color;
-    h2 {
-        font-size: 45px;
+    background-image: url('../img/hommeaccueil.jpg');
+    width: 100%;
+    background-position: center;
+    p{
+        color: $text-color;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding: 25px 0px;
     }
+   a {color:#ffffff;
+    position: fixed;
+    right: 50px;
+    top: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgba(12,52,131,1);
+    padding: 6px;
+ }
 }
+   
+ 
+
