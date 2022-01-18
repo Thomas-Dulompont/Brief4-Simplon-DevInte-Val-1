@@ -1,0 +1,13 @@
+
+header{
+    @include default;
+    color: $text-color-dark;
+
+    h1{
+        font-size: 100px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+}

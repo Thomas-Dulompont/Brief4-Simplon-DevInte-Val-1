@@ -611,4 +611,30 @@ nav .social a {
 .article .entretien .titre {
   font-weight: bold;
 }
+
+header {
+  color: #303030;
+}
+
+header * {
+  font-family: 'Maitree', serif;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-family: 'Italianno', cursive;
+}
+
+header h2 {
+  font-family: 'Amiri', serif;
+}
+
+header h1 {
+  font-size: 100px;
+}
+
+header h2 {
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */
