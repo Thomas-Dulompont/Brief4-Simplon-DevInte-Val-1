@@ -1,0 +1,68 @@
+.article {
+    color: $text-color-dark;
+    @include default;
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 20px;
+    img {
+        margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+    section {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            font-size: 30px;
+        }
+        .solde {
+            padding: 10px 25px;
+            background-color: red;
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+            width: max-content;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+        .prix {
+            font-size: 25px;
+            font-family: $font-prix;
+            i {
+                @extend .prix;
+                text-decoration: line-through;
+                text-decoration-color: red;
+                color: rgb(54, 54, 54);
+            }
+            b {
+                @extend .prix;
+            }
+        }
+        ul {
+            margin: 25px 0;
+            width: 80%;
+            list-style: none;
+            display: flex;
+        }
+    }
+    .description {
+        padding: 10px;
+    }
+    .entretien {
+        width: 90%;
+        padding: 10px;
+        list-style-type: none;
+        .titre {
+            font-weight: bold;
+        }
+    }
+
+}

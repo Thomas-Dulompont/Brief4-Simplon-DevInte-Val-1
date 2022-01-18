@@ -1,0 +1,33 @@
+.button {
+    a {
+        padding: 10px 20px;
+        border: 2px black solid;
+        font-size: 20px;
+        border-radius: 50px;
+        text-decoration: none;
+        color: $text-color-dark;
+        margin: 10px 25px 10px 0px;
+    }
+}
+
+.add-buy a{
+    background-color: black;
+    color: $text-color; 
+}
+.add-buy a:hover {
+    @include button-hover;
+}
+
+.add-basket a:hover {
+    @include button-hover;
+}
+
+.more a {
+    background-color: black;
+    padding: 5px 15px;
+    color: $text-color;
+}
+
+.more a:hover {
+    @include button-hover;
+}

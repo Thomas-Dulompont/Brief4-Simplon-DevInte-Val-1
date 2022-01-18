@@ -1,0 +1,9 @@
+header {
+    @include default;
+    padding: 50px 0px;
+    text-align: center;
+    color: $text-color;
+    h2 {
+        font-size: 45px;
+    }
+}

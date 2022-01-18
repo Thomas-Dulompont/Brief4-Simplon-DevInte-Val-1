@@ -1,0 +1,26 @@
+@mixin default {
+    * {
+        font-family: 'Maitree', serif;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-family: 'Italianno', cursive;
+    }
+    
+    h2 {
+        font-family: 'Amiri', serif;
+    }
+}
+
+@mixin list {
+    text-decoration: none;
+    list-style: none;
+    li>a {
+        color: $text-color;
+    }
+}
+
+@mixin button-hover {
+    opacity: 0.7;
+}
