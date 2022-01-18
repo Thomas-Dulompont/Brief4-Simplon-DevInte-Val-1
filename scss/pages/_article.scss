@@ -8,11 +8,11 @@
     display: grid;
     grid-template-columns: 49% 49%;
     gap: 20px;
-    img {
+        img {
         margin: 10px;
         width: 100%;
         height: auto;
-    }
+        }
     section {
         padding: 20px;
         display: flex;
@@ -28,10 +28,6 @@
             font-size: 35px;
             font-weight: bold;
             width: max-content;
-        }
-        img {
-            width: 100px;
-            height: auto;
         }
         .prix {
             font-size: 25px;
