@@ -389,6 +389,7 @@ template {
   grid-template-columns: repeat(3, 30%);
   justify-content: center;
   gap: 30px;
+<<<<<<< HEAD
 }
 
 header {
@@ -587,31 +588,234 @@ nav .social a {
 <<<<<<< HEAD
 header {
   color: #303030;
+=======
+>>>>>>> 3c163ac2f7122650d41e1f7b30a934ffb766e628
 }
 
+header {
+  background-image: url("../img/hommeaccueil.jpg");
+  width: 100%;
+  background-position: center;
+}
 header * {
-  font-family: 'Maitree', serif;
+  font-family: "Maitree", serif;
   margin: 0;
   padding: 0;
 }
-
 header h1 {
-  font-family: 'Italianno', cursive;
+  font-family: "Italianno", cursive;
 }
-
 header h2 {
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
+<<<<<<< HEAD
 
 header h1 {
+=======
+header p {
+  color: #ffffff;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+header a {
+  color: #ffffff;
+  position: fixed;
+  right: 50px;
+  top: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #0c3483;
+  padding: 6px;
+}
+
+nav {
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #6b8cce 0%, #6b8cce 0%, #0c3483 42%);
+}
+nav * {
+  font-family: "Maitree", serif;
+  margin: 0;
+  padding: 0;
+}
+nav h1 {
+  font-family: "Italianno", cursive;
+}
+nav h2 {
+  font-family: "Amiri", serif;
+}
+nav .logo {
+  width: 80%;
+  margin: 0 auto;
+}
+nav .logo h1 {
+  color: #ffffff;
+>>>>>>> 3c163ac2f7122650d41e1f7b30a934ffb766e628
   font-size: 100px;
 }
+<<<<<<< HEAD
 
 header h2 {
   font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
 =======
+.grille article {
+=======
+nav .logo h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+nav .navbar {
+  text-decoration: none;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: bold;
+}
+nav .navbar li > a {
+  color: #ffffff;
+}
+nav .navbar li {
+  padding: 15px 0px;
+}
+nav .navbar li a {
+  text-decoration: none;
+}
+nav .carte {
+  width: 90%;
+  margin: 0 auto;
+}
+nav .carte iframe {
+>>>>>>> 3c163ac2f7122650d41e1f7b30a934ffb766e628
+  width: 100%;
+  position: relative;
+}
+<<<<<<< HEAD
+.grille article img {
+  width: 100%;
+  height: auto;
+}
+.grille article .prix, .grille article .article section .prix i, .article section .prix .grille article i, .grille article .article section .prix b, .article section .prix .grille article b {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.grille article .matière {
+  background-color: white;
+  position: absolute;
+}
+.grille article .name {
+  background-color: white;
+  position: absolute;
+}
+>>>>>>> 3c163ac2f7122650d41e1f7b30a934ffb766e628
+=======
+nav .social {
+  text-decoration: none;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+nav .social li > a {
+  color: #ffffff;
+}
+nav .social li {
+  padding: 10px;
+}
+nav .social a {
+  font-size: 55px;
+}
+
+.a-propos {
+  width: 60%;
+  margin: 0 auto;
+  color: #303030;
+}
+
+.article {
+  color: #303030;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 5px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 20px;
+}
+.article * {
+  font-family: "Maitree", serif;
+  margin: 0;
+  padding: 0;
+}
+.article h1 {
+  font-family: "Italianno", cursive;
+}
+.article h2 {
+  font-family: "Amiri", serif;
+}
+.article img {
+  margin: 10px;
+  width: 100%;
+  height: auto;
+}
+.article section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article section h2 {
+  font-size: 30px;
+}
+.article section .solde {
+  padding: 10px 25px;
+  background-color: red;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.article section .prix, .article section .prix b, .article section .prix i {
+  font-size: 25px;
+  font-family: "Amiri", serif;
+}
+.article section .prix i {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+  color: #363636;
+}
+.article section ul {
+  margin: 25px 0;
+  width: 80%;
+  list-style: none;
+  display: flex;
+}
+.article .description {
+  padding: 10px;
+}
+.article .entretien {
+  width: 90%;
+  padding: 10px;
+  list-style-type: none;
+}
+.article .entretien .titre {
+  font-weight: bold;
+}
+
 .grille article {
   width: 100%;
   position: relative;
