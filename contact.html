@@ -41,35 +41,41 @@
 <div class="container">
   <header>
     <h1>Contact</h1>
-    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nisi officiis iste quidem rem tempore beatae dolores ut consequatur minus, sequi itaque voluptatibus assumenda. Ullam cumque repellendus sit rem amet!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nisi officiis iste quidem rem tempore beatae dolores ut consequatur minus, sequi itaque voluptatibus assumenda. Ullam cumque repellendus sit rem amet!</p>
   </header>
-  <div class="grid">
-    <form class="contact" action="/" method="POST">
 
-        <label for="name"><strong>Votre nom*:</strong></label>
-        <input id="name" name="name" required><br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus. Duis vel ullamcorper risus.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus.<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus. Duis vel ullamcorper risus.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus. Duis vel ullamcorper risus.</p>
+  
+  <form class="formulaire" action="/" method="POST">
+      <fieldset>
+         <label for="name">Votre nom*:</label>
+          <input id="name" name="name" required>
+  
+          <label for="first_name">Votre Prénom*:</label>
+          <input id="first_name" name="first_name" required>
+      </fieldset><br>
 
+      <fieldset>
+        <label for="email">Votre email*:</label>
+        <input id="email" name="email" required>
+        
+        <label for="subject">Objet de votre message:</label>
+          <select id="subject" name="subject">
+            <optgroup label="Service concerné">
+              <option value="commercial">Service Commercial</option>
+              <option value="technique">Service Technique</option>
+              <option value="other">Autres</option>
+            </optgroup>
+          </select>
+      </fieldset><br>
 
-        <label for="email"><strong>Votre email*:</strong></label>
-        <input id="email" name="email" required><br>
-
-
-        <label for="subject"><strong>Object de l email*</strong></label>
-        <select id="subject" name="subject" required>
-            <option value="1">Contacter le service commercial</option>
-            <option value="2">Contacter le service technique</option>
-            <option value="3">Autre</option>
-        </select><br>
-
-
-        <label for="message">Votre message*:</label>
-        <textarea id="message" name="message" required></textarea><br>
-
-
-        <button type="submit">Envoyer</button>
-
+      <fieldset>
+       <label for="message">Votre message*:</label>
+        <textarea id="message" name="message" required></textarea> 
+      </fieldset><br>
+      <button type="submit">Envoyer</button>
     </form>
-    </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus. Duis vel ullamcorper risus.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus.<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus. Duis vel ullamcorper risus.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi felis, dapibus nec felis ut, fringilla ullamcorper lectus. Duis vel ullamcorper risus.</p>
   </div>
 </body>
 

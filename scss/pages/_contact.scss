@@ -1,13 +1,24 @@
 
 header{
     @include default;
-    color: $text-color-dark;
+    color: $text-color;
 
     h1{
         font-size: 100px;
+        text-align: center;
     }
 
-    h2{
+    p{
         font-size: 20px;
+        font-family: 'Amiri', serif;
     }
+}
+
+p{
+    @include default;
+    font-family: 'Maitree', serif;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
