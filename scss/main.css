@@ -631,8 +631,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: -webkit-gradient(linear, left bottom, left top, from(#6b8cce), color-stop(0%, #6b8cce), color-stop(42%, #0c3483));
-  background: linear-gradient(0deg, #6b8cce 0%, #6b8cce 0%, #0c3483 42%);
+  background-color: #0c3483;
 }
 
 nav * {
