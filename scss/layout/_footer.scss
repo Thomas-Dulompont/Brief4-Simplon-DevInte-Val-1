@@ -1,0 +1,66 @@
+footer{ 
+    @include default;
+    display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+     text-align: center;
+    background-color: rgba(12,52,131,1);
+    width: 96.2%;
+    margin: auto;
+    padding: 30px;
+    gap:30px;
+    
+    .social{
+        font-size: 50px ;
+        list-style: none; //effacer les ul
+      a{
+          color: #ffffff;
+       }
+    }
+    
+    }
+    .logo-footer {
+        h1 {
+        color: $text-color;
+        font-size: 100px;
+       
+        }
+        h2 {
+            color: $text-color;
+            font-size: 30px;
+        }
+    }
+    .compte
+    {color: $text-color;
+            list-style: none;
+            font-size: 20px;
+            a{
+                color: $text-color;
+            }
+    }
+        .liens-newsletter{ 
+            
+            h3
+            {
+                color: $text-color;
+                font-size: 17px;
+                line-height: 30px;
+             }
+             p{
+                color: $text-color;
+                font-size: 15px;
+                line-height: 30px;
+             }
+           
+              }
+
+
+.copyright {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(20, 48, 104);
+    color: $text-color;
+    padding: 15px 0px;
+}

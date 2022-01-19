@@ -2,18 +2,24 @@
     article { 
         width: 100%;
         position: relative; 
+       font-family: $font-prix;
         img { 
             width: 100%;
             height: auto;
             }
-            .prix{
-                background-color: white;
-                  position: absolute;
-                    right: 10px;
-                    top: 10px;
+            .prix{@include fond-position-article;
+               
+                 right: 10px;
+                 top: 10px;
             }
+            .name{@include fond-position-article; 
+                left: 10px;
+                bottom:10px;}
+                   
             .matière{@include fond-position-article;
+                right:10px;
+                bottom:10px;
             }
-            .name{@include fond-position-article;}
+            
+           }
     }
-}

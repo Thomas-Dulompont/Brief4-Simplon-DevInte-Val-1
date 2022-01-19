@@ -391,6 +391,74 @@ template {
   gap: 30px;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: #0c3483;
+  width: 96.2%;
+  margin: auto;
+  padding: 30px;
+  gap: 30px;
+}
+footer * {
+  font-family: "Maitree", serif;
+  margin: 0;
+  padding: 0;
+}
+footer h1 {
+  font-family: "Italianno", cursive;
+}
+footer h2 {
+  font-family: "Amiri", serif;
+}
+footer .social {
+  font-size: 50px;
+  list-style: none;
+}
+footer .social a {
+  color: #ffffff;
+}
+
+.logo-footer h1 {
+  color: #ffffff;
+  font-size: 100px;
+}
+.logo-footer h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.compte {
+  color: #ffffff;
+  list-style: none;
+  font-size: 20px;
+}
+.compte a {
+  color: #ffffff;
+}
+
+.liens-newsletter h3 {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 30px;
+}
+.liens-newsletter p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.copyright {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #143068;
+  color: #ffffff;
+  padding: 15px 0px;
+}
+
 header {
   background-image: url("../img/hommeaccueil.jpg");
   width: 100%;
@@ -414,6 +482,10 @@ header p {
   margin: 0 auto;
   padding: 25px 0px;
 }
+header p .p {
+  font-size: 50px;
+  font-weight: bold;
+}
 header a {
   color: #ffffff;
   position: fixed;
@@ -423,6 +495,11 @@ header a {
   border-radius: 50%;
   background-color: #0c3483;
   padding: 6px;
+}
+
+.text-imag {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 nav {
@@ -582,22 +659,33 @@ nav .social a {
 .grille article {
   width: 100%;
   position: relative;
+  font-family: "Amiri", serif;
 }
 .grille article img {
   width: 100%;
   height: auto;
 }
 .grille article .prix, .grille article .article section .prix i, .article section .prix .grille article i, .grille article .article section .prix b, .article section .prix .grille article b {
-  background-color: white;
+  background-color: #e7f0fdc4;
   position: absolute;
+  padding: 5px 10px;
+  border-radius: 5px;
   right: 10px;
   top: 10px;
 }
-.grille article .matière {
-  background-color: white;
-  position: absolute;
-}
 .grille article .name {
-  background-color: white;
+  background-color: #e7f0fdc4;
   position: absolute;
+  padding: 5px 10px;
+  border-radius: 5px;
+  left: 10px;
+  bottom: 10px;
+}
+.grille article .matière {
+  background-color: #e7f0fdc4;
+  position: absolute;
+  padding: 5px 10px;
+  border-radius: 5px;
+  right: 10px;
+  bottom: 10px;
 }
