@@ -484,22 +484,9 @@ buttonhover {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   background-color: #0c3483;
-  width: 96.2%;
-  margin: auto;
-  padding: 30px;
-  gap: 30px;
+  width: 100%;
+  margin: 50px auto 0;
 }
 
 footer * {
@@ -516,42 +503,60 @@ footer h2 {
   font-family: 'Amiri', serif;
 }
 
-footer .social {
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+footer .footer .social {
   font-size: 50px;
   list-style: none;
 }
 
-footer .social a {
+footer .footer .social a {
   color: #ffffff;
 }
 
-.logo-footer h1 {
+footer .logo-footer h1 {
   color: #ffffff;
   font-size: 100px;
 }
 
-.logo-footer h2 {
+footer .logo-footer h2 {
   color: #ffffff;
   font-size: 30px;
 }
 
-.compte {
+footer .compte {
   color: #ffffff;
   list-style: none;
   font-size: 20px;
 }
 
-.compte a {
+footer .compte a {
   color: #ffffff;
 }
 
-.liens-newsletter h3 {
+footer .liens-newsletter h3 {
   color: #ffffff;
   font-size: 17px;
   line-height: 30px;
 }
 
-.liens-newsletter p {
+footer .liens-newsletter p {
   color: #ffffff;
   font-size: 15px;
   line-height: 30px;
@@ -568,8 +573,9 @@ footer .social a {
 
 header {
   background-image: url("../img/hommeaccueil.jpg");
-  width: 100%;
   background-position: center;
+  padding: 50px;
+  margin: 0 0 50px;
 }
 
 header * {
@@ -587,16 +593,11 @@ header h2 {
 }
 
 header p {
+  font-size: 20px;
   color: #ffffff;
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  padding: 25px 0px;
-}
-
-header p .p {
-  font-size: 50px;
-  font-weight: bold;
 }
 
 header a {
@@ -610,9 +611,10 @@ header a {
   padding: 6px;
 }
 
-.text-imag {
-  font-size: 30px;
-  font-weight: bold;
+header h2 {
+  text-align: center;
+  font-size: 55px;
+  color: #ffffff;
 }
 
 nav {
@@ -818,56 +820,6 @@ nav .social a {
 
 .article .entretien .titre {
   font-weight: bold;
-}
-
-header {
-  color: #ffffff;
-}
-
-header * {
-  font-family: 'Maitree', serif;
-  margin: 0;
-  padding: 0;
-}
-
-header h1 {
-  font-family: 'Italianno', cursive;
-}
-
-header h2 {
-  font-family: 'Amiri', serif;
-}
-
-header h1 {
-  font-size: 100px;
-  text-align: center;
-}
-
-header p {
-  font-size: 20px;
-  font-family: 'Amiri', serif;
-}
-
-p {
-  font-family: 'Maitree', serif;
-  font-size: 14px;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-p * {
-  font-family: 'Maitree', serif;
-  margin: 0;
-  padding: 0;
-}
-
-p h1 {
-  font-family: 'Italianno', cursive;
-}
-
-p h2 {
-  font-family: 'Amiri', serif;
 }
 
 .grille article {
