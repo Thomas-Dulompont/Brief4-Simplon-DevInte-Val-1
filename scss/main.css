@@ -385,57 +385,6 @@ template {
   opacity: 0.7;
 }
 
-.formulaire {
-  font-family: 'Maitree', serif;
-  margin-top: 6g0px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2 1fr);
-  -ms-grid-rows: (1fr)[3];
-      grid-template-rows: repeat(3 1fr);
-  gap: 25px;
-      grid-template-areas: "name first_name" "email subject " "message message";
-}
-
-.formulaire #name {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: name;
-}
-
-.formulaire #first_name {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: first_name;
-}
-
-.formulaire #email {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: email;
-}
-
-.formulaire #subject {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: subject;
-}
-
-.formulaire #message {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: message;
-}
-
-fieldset {
-  border: none;
-}
-
 button {
   padding: 9px 25px;
   background: -webkit-gradient(linear, left bottom, left top, from(#6b8cce), color-stop(0%, #6b8cce), color-stop(42%, #0c3483));
@@ -465,9 +414,93 @@ button h2 {
   font-family: 'Amiri', serif;
 }
 
-buttonhover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#6b8cce), color-stop(0%, #6b8cce), color-stop(42%, #0c3483));
-  background: linear-gradient(0deg, #6b8cce 0%, #6b8cce 0%, #0c3483 42%);
+button p {
+  font-family: 'Maitree', serif;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.formulaire {
+  width: 50%;
+  max-width: 800px;
+  margin: 60px auto;
+  font-family: 'Maitree', serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  row-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "text-nom text-prenom" "nom prenom" "text-email text-objet" "email objet" "text-message text-message" "message message" "envoyer envoyer";
+}
+
+.formulaire #text-nom {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: text-nom;
+}
+
+.formulaire #text-prenom {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: text-prenom;
+}
+
+.formulaire #nom {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nom;
+}
+
+.formulaire #prenom {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: prenom;
+}
+
+.formulaire #text-email {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: text-email;
+}
+
+.formulaire #text-objet {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: text-objet;
+}
+
+.formulaire #email {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: email;
+}
+
+.formulaire #objet {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: objet;
+}
+
+.formulaire #message {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: message;
+  height: 300px;
+}
+
+.formulaire #envoyer {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: envoyer;
 }
 
 .grille {
@@ -501,6 +534,10 @@ footer h1 {
 
 footer h2 {
   font-family: 'Amiri', serif;
+}
+
+footer p {
+  font-family: 'Maitree', serif;
 }
 
 footer .footer {
@@ -563,6 +600,7 @@ footer .liens-newsletter p {
 }
 
 .copyright {
+  font-family: 'Maitree', serif;
   margin: 0;
   width: 100%;
   text-align: center;
@@ -590,6 +628,10 @@ header h1 {
 
 header h2 {
   font-family: 'Amiri', serif;
+}
+
+header p {
+  font-family: 'Maitree', serif;
 }
 
 header p {
@@ -646,6 +688,10 @@ nav h1 {
 
 nav h2 {
   font-family: 'Amiri', serif;
+}
+
+nav p {
+  font-family: 'Maitree', serif;
 }
 
 nav .logo {
@@ -749,6 +795,10 @@ nav .social a {
 
 .article h2 {
   font-family: 'Amiri', serif;
+}
+
+.article p {
+  font-family: 'Maitree', serif;
 }
 
 .article img {

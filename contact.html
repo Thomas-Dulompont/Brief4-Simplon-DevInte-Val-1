@@ -45,34 +45,31 @@
   </header>
 
   <form class="formulaire" action="/" method="POST">
-      <fieldset>
-         <label for="name">Votre nom*:</label>
-          <input id="name" name="name" required>
-  
-          <label for="first_name">Votre Prénom*:</label>
-          <input id="first_name" name="first_name" required>
-      </fieldset><br>
 
-      <fieldset>
-        <label for="email">Votre email*:</label>
-        <input id="email" name="email" required>
+        <label for="nom" id="text-nom">Votre nom* :</label>
+        <input id="nom" name="nom" required>
+  
+        <label for="prenom" id="text-prenom">Votre Prénom* :</label>
+        <input id="prenom" name="prenom" required>
+
+        <label for="email" id="text-email">Votre email* :</label>
+        <input id="email" name="email" placeholder="exemple@exemple.com" required>
         
-        <label for="subject">Objet de votre message:</label>
-          <select id="subject" name="subject">
+        <label for="objet" id="text-objet">Service souhaitait :</label>
+          <select id="objet" name="objet">
             <optgroup label="Service concerné">
-              <option value="commercial">Service Commercial</option>
+              <option value="commercial">Service Après Vente</option>
               <option value="technique">Service Technique</option>
               <option value="other">Autres</option>
             </optgroup>
           </select>
-      </fieldset><br>
 
-      <fieldset>
-       <label for="message">Votre message*:</label>
-        <textarea id="message" name="message" required></textarea> 
-      </fieldset><br>
-      <button type="submit">Envoyer</button>
-    </form>
+        <label for="message" id="text-message">Votre message*:</label>
+        <textarea id="message" name="message" placeholder="Message..." required></textarea> 
+
+      <button id="envoyer" type="submit">Envoyer</button>
+
+  </form>
     
     <footer>
       <div class="footer">
@@ -106,6 +103,7 @@
       </div>
     </footer>
     <p class="copyright"> Copyright 2022 L'Equipe de choc</p>
+    </div>
 </body>
 
 </html>

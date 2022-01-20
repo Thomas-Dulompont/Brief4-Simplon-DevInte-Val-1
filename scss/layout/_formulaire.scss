@@ -1,51 +1,50 @@
 .formulaire{
+    width: 50%;
+    max-width: 800px;
+    margin: 60px auto;
     font-family: 'Maitree', serif;
-    margin-top: 6g0px;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 10px;
     justify-content: center;
-    grid-template-columns: repeat(2 1fr);
-    grid-template-rows: repeat(3 1fr);
-    gap: 25px;
     grid-template-areas: 
-    "name first_name"
-    "email subject "
-    "message message";
-    #name{
-        grid-area: name;
+    "text-nom text-prenom"
+    "nom prenom"
+    "text-email text-objet"
+    "email objet"
+    "text-message text-message"
+    "message message"
+    "envoyer envoyer";
+    #text-nom {
+        grid-area: text-nom;
     }
-
-    #first_name{
-        grid-area: first_name;
+    #text-prenom {
+        grid-area: text-prenom;
     }
-
-    #email{
+    #nom {
+        grid-area: nom;
+    }
+    #prenom {
+        grid-area: prenom;
+    }
+    #text-email {
+        grid-area: text-email;
+    }
+    #text-objet {
+        grid-area: text-objet;
+    }
+    #email {
         grid-area: email;
     }
-
-    #subject{
-        grid-area: subject;
+    #objet {
+        grid-area: objet;
     }
-
-    #message{
+    #message {
         grid-area: message;
+        height: 300px;
     }
-}
-
-fieldset{
-    border: none;
-}
-
-button{
-    @include default;
-    padding: 9px 25px;
-    background: linear-gradient(0deg, rgba(107,140,206,1) 0%, rgba(107,140,206,1) 0%, rgba(12,52,131,1) 42%);    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-    color: $text-color;
-    justify-content: center;
-    font-family: 'Maitree', serif;
-
-    &hover{
-        background: linear-gradient(0deg, rgba(107,140,206,1) 0%, rgba(107,140,206,1) 0%, rgba(12,52,131,1) 42%);
+    #envoyer {
+        grid-area: envoyer;
     }
 }
