@@ -6,3 +6,31 @@
     justify-content: center;
     gap: 30px;
 }
+
+@media screen and (max-width: 1600px)
+{
+    .grille {
+        grid-template-columns: repeat(4, 20%);
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    .grille {
+        grid-template-columns: repeat(3, 30%);
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .grille {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .grille {
+        grid-template-columns: repeat(1, 100%);
+    }
+}

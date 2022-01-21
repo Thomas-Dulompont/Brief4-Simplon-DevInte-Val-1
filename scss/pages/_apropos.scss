@@ -1,5 +1,50 @@
-.a-propos {
-    width: 60%;
-    margin: 0 auto;
-    color: $text-color-dark;
+.a_propos {
+    width: 80%;
+    max-width: 1300px;
+    margin: 100px auto;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 1fr;
+    section {
+        @include default;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        .image {
+            width: 30%;
+            border-radius: 50%;
+            padding: 25px;
+            background: rgb(20, 48, 104);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.342);
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    .a_propos {
+        grid-template-columns: repeat(1, 50%);
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .a_propos {
+        row-gap: 100px;
+    }
+}
+
+@media screen and (max-width: 325px)
+{
+    .a_propos {
+        row-gap: 150px;
+    }
 }

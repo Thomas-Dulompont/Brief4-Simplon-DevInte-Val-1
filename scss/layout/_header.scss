@@ -12,7 +12,8 @@ header {
         width: 60%;
         margin: 0 auto;
     }
-   a {color:#ffffff;
+   .basket {
+    color:#ffffff;
     position: fixed;
     right: 50px;
     top: 30px;
@@ -20,6 +21,11 @@ header {
     border-radius: 50%;
     background-color: rgba(12,52,131,1);
     padding: 6px;
+    transition: 0.5s;
+    z-index: 10000;
+    &:hover {
+        animation: basket 2s ease 0s 1 normal forwards;
+    }
  }
  h2 {
      text-align: center;

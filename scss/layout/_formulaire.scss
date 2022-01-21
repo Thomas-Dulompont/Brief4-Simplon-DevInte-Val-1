@@ -48,3 +48,27 @@
         grid-area: envoyer;
     }
 }
+
+@media screen and (max-width: 950px)
+{
+    .formulaire {
+        width: 60%;
+        margin: auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "text-nom"
+        "nom"
+        "text-prenom"
+        "prenom"
+        "text-email"
+        "email"
+        "text-objet"
+        "objet"
+        "text-message"
+        "message"
+        "envoyer";
+        #text-message {
+            display: none;
+        }
+    }
+}

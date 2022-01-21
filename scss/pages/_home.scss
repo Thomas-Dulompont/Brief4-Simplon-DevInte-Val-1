@@ -1,25 +1,37 @@
 .grille {
-    article { 
+        section { 
         width: 100%;
         position: relative; 
         font-family: $font-prix;
-        img { 
-            width: 100%;
-            height: auto;
+            img{ 
+                width: 100%;
+                height: auto;
             }
-            .prix{@include fond-position-article;
-               
-                 right: 10px;
-                 top: 10px;
+            .prix{
+            @include fond-position-article;
+            right: 10px;
+            top: 10px;
             }
-            .name{@include fond-position-article; 
-                left: 10px;
-                bottom:10px;}
-                   
-            .matière{@include fond-position-article;
-                right:10px;
-                bottom:10px;
+            .name{
+            margin: 0;
+            @include default;
+            @include fond-position-article;
+            font-size: 17px;
+            font-weight: normal;
+            left: 10px;
+            bottom:10px;
             }
-            
+                    
+            .matière{
+            @include fond-position-article;
+            right:10px;
+            bottom:10px;
+            }
         }
-    }
+        a {
+            color: #303030;
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+}

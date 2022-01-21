@@ -8,16 +8,17 @@
     display: grid;
     grid-template-columns: 49% 49%;
     gap: 20px;
+    padding: 10px;
         img {
-        margin: 10px;
         width: 100%;
         height: auto;
         }
     section {
         padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        display: block;
+        .button {
+            margin: 25px 0;
+        }
         h2{
             font-size: 30px;
         }
@@ -44,7 +45,7 @@
         }
         ul {
             margin: 25px 0;
-            width: 80%;
+            width: 100%;
             list-style: none;
             display: flex;
         }
@@ -61,4 +62,32 @@
         }
     }
 
+}
+@media screen and (max-width: 1600px)
+{
+    .article {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    .article {
+        section {
+            ul {
+                display: block;
+            }
+            .button {
+                margin: 50px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+    .article {
+        width: 70%;
+        grid-template-columns: 1fr;
+    }
 }
